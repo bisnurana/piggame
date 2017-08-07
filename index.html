@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="En">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>My Pig Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <link rel="apple-touch-icon" href="">
+        <!-- Place favicon.ico in the root directory -->
+
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        <div class="main-wrapper">
+            <button class="new-game bg-gr">New Game</button>
+
+            <div class="left-wrapper">
+                <h2 class="player-name active" id="name-1"></h2>
+                <div class="player-score" id="score-1"></div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current:</div>
+                    <div class="player-current-score" id="current-1"></div>
+                </div>
+            </div>
+
+            <div class="center-wrapper">
+                <div class="display-board">
+                    <div class="display-text"></div>
+                    <img class="dice-img" src="dice-1.png">
+                </div>
+
+                <button class="roll-dice bg-or">Roll</button>
+                <button class="hold-dice bg-gr">Hold up</button>
+                
+
+            </div>
+
+            <div class="right-wrapper">
+                <h2 class="player-name" id="name-2"></h2>
+                <div class="player-score" id="score-2"></div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current:</div>
+                    <div class="player-current-score" id="current-2"></div>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+
+
+
+        <script src="script.js"></script>
+
+       
+    </body>
+</html>
