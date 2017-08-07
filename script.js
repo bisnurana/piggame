@@ -1,7 +1,4 @@
-/*var player1= prompt("Player 1 your name is?");
-document.getElementById('name-1').textContent = player1;
-var player2= prompt("Player 2 your name is?");
-document.getElementById('name-2').textContent = player2;*/
+
 
 var scores, roundScore, activePlayer;
 init();
@@ -32,7 +29,7 @@ document.querySelector('.hold-dice').addEventListener('click', function(){
 
     scores[activePlayer] += roundScore;
     document.querySelector('#score-'+ activePlayer).textContent = scores[activePlayer];
-    if (scores[activePlayer] >= 10){
+    if (scores[activePlayer] >= 100){
         document.querySelector('.dice-img').style.display ='none';
         document.querySelector('.display-text').textContent = "Player " + activePlayer + " Won!";
         document.querySelector('.display-text').style.display='block';
